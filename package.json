@@ -1,0 +1,28 @@
+{
+  "name": "mean-crud",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon server/index.js",
+    "start": "node server/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Youngermaster/MEAN-CRUD.git"
+  },
+  "author": "Juan Manuel Young Hoyos",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Youngermaster/MEAN-CRUD/issues"
+  },
+  "homepage": "https://github.com/Youngermaster/MEAN-CRUD#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongoose": "^5.6.13",
+    "morgan": "^1.9.1"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.2"
+  }
+}
